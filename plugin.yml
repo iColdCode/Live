@@ -1,0 +1,16 @@
+name: Live
+author: "Created by @iColdCode"
+version: 0.0.1
+main: iColdCode\Live\Main
+api: [5.0.0]
+description: Plugin for your content creators to announce their live streams
+
+commands:
+  live:
+    description: Announce your live stream with a link
+    usage: "/live <live link>"
+    permission: live.use
+permissions:
+  live.use:
+    description: Give this permission to use the live command
+    default: true
